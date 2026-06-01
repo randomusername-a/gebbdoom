@@ -18,4 +18,5 @@ jobs:
       - name: Upload the book
         uses: actions/upload-artifact@v7
         with:
-          path: ./*.pdf
+          path: out/*_release.pdf
+          archive: false
